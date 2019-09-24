@@ -24,7 +24,9 @@ class School
     
     def sort
        @@roster.each do |grade, kids| 
-        
+         school_sort = @@roster[grade] = kids.sort 
+       end
+         school_sort
      end
        
   #      def self.alphabetical
