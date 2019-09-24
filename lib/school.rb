@@ -23,10 +23,10 @@ class School
     end
     
     def sort
-       @@roster.each do |grade, kids| 
-         school_sort = @@roster[grade] = kids.sort 
+      school_sort = @@roster.each do |grade, kids| 
+        @@roster[grade] = kids.sort 
        end
-         school_sort
+       school_sort
      end
        
   #      def self.alphabetical
